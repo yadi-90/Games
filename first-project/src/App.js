@@ -1,6 +1,7 @@
 import React from 'react';
 import ListInstructions from './components/listInstructions';
 import './App.css';
+import Cells from './components/Cells';
 
 function App() {
   return (
