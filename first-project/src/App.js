@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import listInstructions from './components/listInstructions';
 import './App.css';
 
 function App() {
