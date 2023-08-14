@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cells() {
   return (
-    <div>Cells</div>
+    <div className="square"></div>
   )
 }
 
