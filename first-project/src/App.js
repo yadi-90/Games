@@ -12,7 +12,10 @@ function App() {
          either horizontally, vertically, or diagonally, on a 3x3 grid.</p>
          <h2>Instructions</h2>
          <ListInstructions />
+         <div className="gameBoard">
          <Cells />
+         </div>
+        
     </div>
   );
 }
