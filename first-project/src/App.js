@@ -1,4 +1,5 @@
-import listInstructions from './components/listInstructions';
+
+import ListInstructions from './components/listInstructions';
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         the objective is to be the first to get three of your own symbols in a row,
          either horizontally, vertically, or diagonally, on a 3x3 grid.</p>
          <h2>Instructions</h2>
-         <listInstructions />
+         <ListInstructions />
     </div>
   );
 }

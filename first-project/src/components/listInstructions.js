@@ -1,6 +1,6 @@
 import React from 'react'
 
-function listInstructions() {
+function listInstructions(props) {
   return (
     <div>
     <ul>
