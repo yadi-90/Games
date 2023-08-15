@@ -7,7 +7,7 @@ import { useState } from 'react';
 function App() {
   const[cells, setCells]= useState(["","","","","","","","","",])
   const[go,SetGo] = useState("circle")
-  const[winningMessage, setWinningMessage] =useState(null)
+  const[winningMessage, setWinningMessage] = useState(null)
 
   const message = "it is now "+ go + " 's go. "
   return (
@@ -25,6 +25,7 @@ function App() {
         setCells={setCells} />
         )}
       </div> 
+      <p>{message}</p>
          <h2>Instructions</h2>
          <ListInstructions />
 

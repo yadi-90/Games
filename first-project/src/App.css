@@ -43,6 +43,7 @@ text-align: center;
   height: 90px;
   width: 90px;
   position: relative;
+  transform: 45%
 }
 
 .cross:before, .cross:after {
@@ -56,4 +57,11 @@ text-align: center;
   width: 30%;
   margin-left:50%;
   height:100%
+}
+
+.cross:after{
+  top: 50%;
+  height: 30%;
+  margin-top:50%;
+  width:100%
 }
