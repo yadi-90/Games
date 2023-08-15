@@ -7,7 +7,9 @@ function Cell({ id, cell, setCells }) {
     e.target.firstChild.classList.contains("cross")
   }
     return (
-    <div className="square" id={id} onClick = {handleClick}></div>
+    <div className="square" id={id} onClick = {handleClick}>
+      <div className="cross"></div>
+    </div>
     )
   }
 
