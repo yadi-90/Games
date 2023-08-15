@@ -17,7 +17,12 @@ function App() {
         the objective is to be the first to get three of your own symbols in a row,
          either horizontally, vertically, or diagonally, on a 3x3 grid.</p>
          <div className="gameBoard">
-        {cells.map((cell, index) =><Cell key={index} id={index} cell={cell} />
+        {cells.map((cell, index) =>
+        <Cell 
+        key={index} 
+        id={index} 
+        cell={cell} 
+        setCells={setCells} />
         )}
       </div> 
          <h2>Instructions</h2>
