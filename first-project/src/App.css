@@ -33,21 +33,21 @@ text-align: center;
 }
 
 .circle{
-  height: 90px;
-  width: 90px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   border:15px solid blue;
 
 }
 .cross{
-  height: 90px;
-  width: 90px;
+  height: 50px;
+  width: 50px;
   position: relative;
   transform: 45%
 }
 
 .cross:before, .cross:after {
-  content: "";
+  content: " ";
   position:absolute;
   background-color:red,
 }
