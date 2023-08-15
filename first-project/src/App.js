@@ -15,7 +15,7 @@ function App() {
          <h2>Instructions</h2>
          <ListInstructions />
          <div className="gameBoard">
-        {cells.map((cellValue, index) =><Cell key={index} id={index} cell={cell} />
+        {cells.map((cell, index) =><Cell key={index} id={index} cell={cell} />
         )}
       </div> 
     </div>
