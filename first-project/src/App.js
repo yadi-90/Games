@@ -36,10 +36,10 @@ function App() {
       setWinningMessage("Cross Wins!");
     }
   };
+  useEffect(() => {
+    checkScores(); // Corrected function name
+  }, [cells]);
   
-  useEffect(() =>{
-    checkScore()
-  }, [cells])
   return (
     <div className="App">
       <h1 className="Title"> Tic Tac Toe Game</h1>
