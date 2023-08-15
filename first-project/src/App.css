@@ -46,11 +46,13 @@ text-align: center;
   transform: 45%
 }
 
-.cross:before, .cross:after {
+.cross:before,
+.cross:after {
   content: " ";
-  position:absolute;
-  background-color:red,
+  position: absolute;
+  background-color: red;
 }
+
 
 .cross:before{
   left: 50%;

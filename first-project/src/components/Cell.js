@@ -20,15 +20,17 @@ function Cell({ id, cell, setCells, go, setGo, cells }) {
     }
   }
   const handleCellChange = (className) => {
-cells.map((cell,index)=>
-{
-  if (index === id ){
-    return className
-  } else {
-    return cell
-  }
-})
-  }
+    const updatedCells = cells.map((cell, index) => {
+      if (index === id) {
+        return className;
+      } else {
+        return cell;
+      }
+    });
+  
+    setCells(updatedCells);
+  };
+  
     return (
     <div className="square" id={id} onClick = {handleClick}>
       <div className={cell}></div>
