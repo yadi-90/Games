@@ -40,10 +40,13 @@ text-align: center;
 
 }
 .cross{
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: relative;
-  transform: 45%
+  display:flex;
+ justify-content: center;
+ align-items: center;
+ transform: rotate(45deg);
 }
 
 .cross:before,
@@ -57,13 +60,13 @@ text-align: center;
 .cross:before{
   left: 50%;
   width: 30%;
-  margin-left:50%;
+  margin-left:-15%;
   height:100%
 }
 
 .cross:after{
   top: 50%;
   height: 30%;
-  margin-top:50%;
+  margin-top: -15%;;
   width:100%
 }

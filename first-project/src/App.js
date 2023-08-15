@@ -56,6 +56,7 @@ function App() {
         go = {go} 
         setGo={setGo}
         cells={cells}
+        winningMessage={winningMessage}
         />)}
       </div> 
         <p>{winningMessage || message}</p>

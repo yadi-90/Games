@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cell({ id, cell, setCells, go, setGo, cells }) {
+function Cell({ id, cell, setCells, go, setGo, cells, winningMessage }) {
 
   const handleClick=(e)=> {
     const taken = e.target.firstChild.classList.contains("circle")||
@@ -32,7 +32,7 @@ function Cell({ id, cell, setCells, go, setGo, cells }) {
   };
   
     return (
-    <div className="square" id={id} onClick = {handleClick}>
+    <div className="square" id={id} onClick = {!winningMessage && handleClick}>
       <div className={cell}></div>
     </div>
     )
