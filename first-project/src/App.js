@@ -1,7 +1,7 @@
 import React from 'react';
 import ListInstructions from './components/listInstructions';
 import './App.css';
-import Cells from './components/Cell';
+import Cell from './components/Cell';
 import { useState } from 'react';
 
 function App() {
@@ -15,9 +15,8 @@ function App() {
          <h2>Instructions</h2>
          <ListInstructions />
          <div className="gameBoard">
-        {cells.map((cellValue, index) => (
-          <Cell key={index} id={index} cellValue={cellValue} />
-        ))}
+        {cells.map((cellValue, index) =><Cell key={index} id={index} cellValue={cellValue} />
+        )}
       </div>
         
     </div>
