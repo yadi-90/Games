@@ -6,6 +6,10 @@ import { useState } from 'react';
 
 function App() {
   const[cells, setCells]= useState(["","","","","","","","","",])
+  const[go,SetGo] = useState("circle")
+  const[winningMessage, setWinningMessage] =useState(null)
+
+  const message = "it is now "+ go + " 's go. "
   return (
     <div className="App">
       <h1 className="Title"> Tic Tac Toe Game</h1>
