@@ -22,10 +22,11 @@ function App() {
         key={index} 
         id={index} 
         cell={cell} 
-        setCells={setCells} />
-        )}
+        setCells={setCells}
+        go = {go} 
+        />)}
       </div> 
-      <p>{message}</p>
+        <p>{message}</p>
          <h2>Instructions</h2>
          <ListInstructions />
 
