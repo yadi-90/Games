@@ -7,12 +7,19 @@
   height: 100vh;
   flex-direction: column;
 }
+.Title{
+text-align: center;
+  color: blueviolet;
+  font-size: 100px;
+
+}
 .gameBoard{
   width: 300px;
   height: 300px;
   display:flex;
   flex-wrap: wrap;
-  border: solid 2px black
+  border: solid 2px black;
+  margin-left: 40%;
 }
 
 .square{
